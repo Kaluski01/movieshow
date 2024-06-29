@@ -324,13 +324,14 @@ footer{
         top: 250px; 
     }
     .top{
-
-        width: 80%;
+        width: 100%;
     }
     .lastImage{
         position: relative;
         bottom: 50px;
+        width: 90%;
     }
+    
     footer{
         position: relative;
         top: 250px;
@@ -342,5 +343,12 @@ footer{
     .last-section{
         position: relative;
         left: 20px;
+        width: 80%;
+    }
+    .see{
+        width: 100%;
+    }
+    .More{
+        width: 100%;
     }
 }

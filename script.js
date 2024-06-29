@@ -9,10 +9,12 @@ fetch(`https://api.themoviedb.org/3/movie/${movieId}?api_key=${apiKey}`)
     .then(data => {
         // Create HTML content with movie information
         const movieContent = `
-            <h1 class="overview ">${data.title}</h1>
+            <h2 class="overview ">${data.title}</h2>
+            <div class="data"> 
             <p>Release Date:${data.release_date}</p>
-            <p class="data">Overview: ${data.overview}</p>
+            <p>Overview: ${data.overview}</p>
             <p>Vote Average: ${data.vote_average}</p>
+            </div>
             
         `;
 

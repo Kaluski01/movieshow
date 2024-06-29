@@ -99,16 +99,20 @@
   #main{
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
   }
   .header{
     background-image:url('Poster.png');
     width:100%;
     /* background-size: cover; */
    background-position: center;
-    height: 200vh;
+    height: 100vh;
   }
   .icon-containers{
     width: 80%;
+    display: none;
   }
   .icon-container{
     /* padding: 20px; */
@@ -127,8 +131,12 @@
     width: 100%;
     /* background-color: black; */
   }
-  .data{
-    width: 100%;
+  #movieDetails{
+    width: 90%;
+
+  }
+  .terms{
+    width: 60%;
   }
 }
 
